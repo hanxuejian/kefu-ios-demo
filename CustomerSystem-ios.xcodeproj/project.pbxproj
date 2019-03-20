@@ -35,15 +35,14 @@
 		3324ABBF2241FB2C00F45443 /* CWStarRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3324ABAE2241FB2B00F45443 /* CWStarRateView.m */; };
 		3324ABC02241FB2C00F45443 /* bg_rl_satisfaction.png in Resources */ = {isa = PBXBuildFile; fileRef = 3324ABAF2241FB2B00F45443 /* bg_rl_satisfaction.png */; };
 		3324ABC12241FB2C00F45443 /* icon_star_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 3324ABB02241FB2B00F45443 /* icon_star_select.png */; };
+		3324ABC522420A8400F45443 /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3324ABC422420A8400F45443 /* Bugly.framework */; };
+		3324ABC722420C3E00F45443 /* Hyphenate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3324ABC622420C3E00F45443 /* Hyphenate.framework */; };
 		334599E72230F06200293753 /* ChangeUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334599E62230F06200293753 /* ChangeUserInfoViewController.m */; };
 		334599EA2232376000293753 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334599E92232376000293753 /* SetViewController.m */; };
 		334599ED223243F800293753 /* GlobalSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 334599EC223243F800293753 /* GlobalSetting.m */; };
 		3350BE4F2230BB9D004CF8C5 /* CustomerInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3350BE4E2230BB9D004CF8C5 /* CustomerInfoVC.m */; };
-		33784E6622341F4300B33404 /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C4F6622234198F00E48F47 /* Bugly.framework */; };
 		33C4F6642234199000E48F47 /* HelpDesk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C4F6612234198F00E48F47 /* HelpDesk.framework */; };
 		33C4F6652234199000E48F47 /* HelpDesk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 33C4F6612234198F00E48F47 /* HelpDesk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		33C4F6682234199000E48F47 /* Hyphenate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C4F6632234199000E48F47 /* Hyphenate.framework */; };
-		33C4F6692234199000E48F47 /* Hyphenate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 33C4F6632234199000E48F47 /* Hyphenate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5A07237B222F925000330958 /* yonghuzu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A072377222F925000330958 /* yonghuzu.png */; };
 		5A07237C222F925000330958 /* CustomerListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A072378222F925000330958 /* CustomerListVC.m */; };
 		5A07237D222F925000330958 /* huihua.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A072379222F925000330958 /* huihua.png */; };
@@ -402,7 +401,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				33C4F6692234199000E48F47 /* Hyphenate.framework in Embed Frameworks */,
 				33C4F6652234199000E48F47 /* HelpDesk.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -463,6 +461,8 @@
 		3324ABAF2241FB2B00F45443 /* bg_rl_satisfaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_rl_satisfaction.png; sourceTree = "<group>"; };
 		3324ABB02241FB2B00F45443 /* icon_star_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_star_select.png; sourceTree = "<group>"; };
 		3324ABB12241FB2B00F45443 /* CWStarRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWStarRateView.h; sourceTree = "<group>"; };
+		3324ABC422420A8400F45443 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bugly.framework; path = Pods/Bugly/Bugly.framework; sourceTree = "<group>"; };
+		3324ABC622420C3E00F45443 /* Hyphenate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hyphenate.framework; path = Pods/Hyphenate/iOS_Pods_IMFullSDK_V3.4.3/Hyphenate.framework; sourceTree = "<group>"; };
 		334599E52230F06200293753 /* ChangeUserInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeUserInfoViewController.h; sourceTree = "<group>"; };
 		334599E62230F06200293753 /* ChangeUserInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeUserInfoViewController.m; sourceTree = "<group>"; };
 		334599E82232376000293753 /* SetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
@@ -939,6 +939,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3324ABC722420C3E00F45443 /* Hyphenate.framework in Frameworks */,
+				3324ABC522420A8400F45443 /* Bugly.framework in Frameworks */,
 				3324AB842241FAB800F45443 /* DACircularProgress.framework in Frameworks */,
 				3324AB862241FAB800F45443 /* PSTCollectionView.framework in Frameworks */,
 				3324AB712241EB0600F45443 /* MBProgressHUD.framework in Frameworks */,
@@ -948,7 +950,6 @@
 				3324AB6F2241E66500F45443 /* SDWebImage.framework in Frameworks */,
 				3324AB6D2241E4A500F45443 /* SVProgressHUD.framework in Frameworks */,
 				3324AB6B2241E37200F45443 /* Masonry.framework in Frameworks */,
-				33784E6622341F4300B33404 /* Bugly.framework in Frameworks */,
 				D378E6061F5669A400E3AB74 /* Security.framework in Frameworks */,
 				D3E4B4471E7AA41B004FEA49 /* libiconv.tbd in Frameworks */,
 				EB62E4551A8E2DAB00705655 /* Foundation.framework in Frameworks */,
@@ -962,7 +963,6 @@
 				EB62E43F1A8E2D6200705655 /* CoreLocation.framework in Frameworks */,
 				EB62E43D1A8E2D5C00705655 /* MapKit.framework in Frameworks */,
 				EB62E43B1A8E2D5600705655 /* ImageIO.framework in Frameworks */,
-				33C4F6682234199000E48F47 /* Hyphenate.framework in Frameworks */,
 				EB62E4391A8E2D5000705655 /* CoreText.framework in Frameworks */,
 				95F02F2C6DDD469531919502 /* Pods_CustomerSystem_ios.framework in Frameworks */,
 			);
@@ -1364,6 +1364,8 @@
 		D35726071DE315640033D4E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3324ABC622420C3E00F45443 /* Hyphenate.framework */,
+				3324ABC422420A8400F45443 /* Bugly.framework */,
 				3324AB832241FAB800F45443 /* DACircularProgress.framework */,
 				3324AB852241FAB800F45443 /* PSTCollectionView.framework */,
 				3324AB702241EB0600F45443 /* MBProgressHUD.framework */,
@@ -2417,6 +2419,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CustomerSystem-ios/Pods-CustomerSystem-ios-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DACircularProgress/DACircularProgress.framework",
+				"${PODS_ROOT}/Hyphenate/iOS_Pods_IMFullSDK_V3.4.3/Hyphenate.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/MWPhotoBrowser/MWPhotoBrowser.framework",
@@ -2428,6 +2431,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DACircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hyphenate.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MWPhotoBrowser.framework",
@@ -2705,6 +2709,8 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/imsdk",
 					"$(PROJECT_DIR)/CustomerSystem-ios/HXFramework",
+					"$(PROJECT_DIR)/Pods/Bugly",
+					"$(PROJECT_DIR)/Pods/Hyphenate/iOS_Pods_IMFullSDK_V3.4.3",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "${PROJECT_DIR}/CustomerSystem-ios/CustomerSystem.pch";
@@ -2750,6 +2756,8 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/imsdk",
 					"$(PROJECT_DIR)/CustomerSystem-ios/HXFramework",
+					"$(PROJECT_DIR)/Pods/Bugly",
+					"$(PROJECT_DIR)/Pods/Hyphenate/iOS_Pods_IMFullSDK_V3.4.3",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "${PROJECT_DIR}/CustomerSystem-ios/CustomerSystem.pch";

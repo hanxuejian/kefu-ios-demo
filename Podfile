@@ -14,4 +14,7 @@ target 'CustomerSystem-ios' do
   pod 'DACircularProgress', '~> 2.3'
   pod 'MWPhotoBrowser'
   pod 'PSTCollectionView'
+  pod 'Bugly'
+  pod 'Hyphenate'
+
 end

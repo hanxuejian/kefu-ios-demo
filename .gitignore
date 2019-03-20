@@ -5,6 +5,8 @@ xcuserdata/
 
 *.framework
 
+!HelpDesk.framework
+
 3rdParty/
 
 3rdparty/

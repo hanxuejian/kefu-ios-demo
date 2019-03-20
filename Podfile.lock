@@ -1,5 +1,7 @@
 PODS:
+  - Bugly (2.5.0)
   - DACircularProgress (2.3.1)
+  - Hyphenate (3.4.3)
   - Masonry (1.1.0)
   - MBProgressHUD (0.9.2)
   - MJRefresh (3.1.15.3)
@@ -14,7 +16,9 @@ PODS:
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
+  - Bugly
   - DACircularProgress (~> 2.3)
+  - Hyphenate
   - Masonry
   - MBProgressHUD (~> 0.9)
   - MJRefresh
@@ -25,7 +29,9 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Bugly
     - DACircularProgress
+    - Hyphenate
     - Masonry
     - MBProgressHUD
     - MJRefresh
@@ -35,7 +41,9 @@ SPEC REPOS:
     - SVProgressHUD
 
 SPEC CHECKSUMS:
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  Hyphenate: 25481379f376625823f21b91f6bbde44bb2a2e01
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
@@ -44,6 +52,6 @@ SPEC CHECKSUMS:
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: e79226d2c34d70ac0fa5966924e0e59cb6f580d4
+PODFILE CHECKSUM: 6fcd4375cd14faebed6935854039da976c04d5cd
 
 COCOAPODS: 1.5.3
