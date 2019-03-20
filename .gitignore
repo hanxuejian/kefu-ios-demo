@@ -1,4 +1,6 @@
 
+Pods/
+
 xcuserdata/
 
 *.framework
@@ -6,3 +8,4 @@ xcuserdata/
 3rdParty/
 
 3rdparty/
+
