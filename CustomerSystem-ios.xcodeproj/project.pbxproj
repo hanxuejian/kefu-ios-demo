@@ -11,6 +11,11 @@
 		334599EA2232376000293753 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334599E92232376000293753 /* SetViewController.m */; };
 		334599ED223243F800293753 /* GlobalSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 334599EC223243F800293753 /* GlobalSetting.m */; };
 		3350BE4F2230BB9D004CF8C5 /* CustomerInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3350BE4E2230BB9D004CF8C5 /* CustomerInfoVC.m */; };
+		33784E6622341F4300B33404 /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C4F6622234198F00E48F47 /* Bugly.framework */; };
+		33C4F6642234199000E48F47 /* HelpDesk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C4F6612234198F00E48F47 /* HelpDesk.framework */; };
+		33C4F6652234199000E48F47 /* HelpDesk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 33C4F6612234198F00E48F47 /* HelpDesk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		33C4F6682234199000E48F47 /* Hyphenate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C4F6632234199000E48F47 /* Hyphenate.framework */; };
+		33C4F6692234199000E48F47 /* Hyphenate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 33C4F6632234199000E48F47 /* Hyphenate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5A07237B222F925000330958 /* yonghuzu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A072377222F925000330958 /* yonghuzu.png */; };
 		5A07237C222F925000330958 /* CustomerListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A072378222F925000330958 /* CustomerListVC.m */; };
 		5A07237D222F925000330958 /* huihua.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A072379222F925000330958 /* huihua.png */; };
@@ -462,6 +467,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				33C4F6692234199000E48F47 /* Hyphenate.framework in Embed Frameworks */,
+				33C4F6652234199000E48F47 /* HelpDesk.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,6 +484,9 @@
 		334599EC223243F800293753 /* GlobalSetting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobalSetting.m; sourceTree = "<group>"; };
 		3350BE4D2230BB9D004CF8C5 /* CustomerInfoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomerInfoVC.h; sourceTree = "<group>"; };
 		3350BE4E2230BB9D004CF8C5 /* CustomerInfoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomerInfoVC.m; sourceTree = "<group>"; };
+		33C4F6612234198F00E48F47 /* HelpDesk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HelpDesk.framework; path = "CustomerSystem-ios/HXFramework/HelpDesk.framework"; sourceTree = "<group>"; };
+		33C4F6622234198F00E48F47 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bugly.framework; path = "CustomerSystem-ios/HXFramework/Bugly.framework"; sourceTree = "<group>"; };
+		33C4F6632234199000E48F47 /* Hyphenate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hyphenate.framework; path = "CustomerSystem-ios/HXFramework/Hyphenate.framework"; sourceTree = "<group>"; };
 		5A072377222F925000330958 /* yonghuzu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yonghuzu.png; sourceTree = "<group>"; };
 		5A072378222F925000330958 /* CustomerListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerListVC.m; sourceTree = "<group>"; };
 		5A072379222F925000330958 /* huihua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = huihua.png; sourceTree = "<group>"; };
@@ -1141,10 +1151,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33784E6622341F4300B33404 /* Bugly.framework in Frameworks */,
 				D378E6061F5669A400E3AB74 /* Security.framework in Frameworks */,
 				D3E4B4471E7AA41B004FEA49 /* libiconv.tbd in Frameworks */,
 				D3AA4B261ED45B7300B5C509 /* hdlibopencore-amrwb.a in Frameworks */,
 				EB62E4551A8E2DAB00705655 /* Foundation.framework in Frameworks */,
+				33C4F6642234199000E48F47 /* HelpDesk.framework in Frameworks */,
 				EB62E4531A8E2DA400705655 /* UIKit.framework in Frameworks */,
 				EB62E44D1A8E2D9300705655 /* CFNetwork.framework in Frameworks */,
 				D3AA4B251ED45B7300B5C509 /* hdlibopencore-amrnb.a in Frameworks */,
@@ -1154,6 +1166,7 @@
 				EB62E43F1A8E2D6200705655 /* CoreLocation.framework in Frameworks */,
 				EB62E43D1A8E2D5C00705655 /* MapKit.framework in Frameworks */,
 				EB62E43B1A8E2D5600705655 /* ImageIO.framework in Frameworks */,
+				33C4F6682234199000E48F47 /* Hyphenate.framework in Frameworks */,
 				EB62E4391A8E2D5000705655 /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1555,6 +1568,9 @@
 		D35726071DE315640033D4E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				33C4F6612234198F00E48F47 /* HelpDesk.framework */,
+				33C4F6632234199000E48F47 /* Hyphenate.framework */,
+				33C4F6622234198F00E48F47 /* Bugly.framework */,
 				D378E6051F5669A400E3AB74 /* Security.framework */,
 				D3E4B4371E7A930E004FEA49 /* AVFoundation.framework */,
 				D33946EB1E54371C009370BF /* libiconv.tbd */,
@@ -2477,9 +2493,9 @@
 		EB62E1F01A8DD92D00705655 = {
 			isa = PBXGroup;
 			children = (
-				D35726071DE315640033D4E3 /* Frameworks */,
 				EB62E1FB1A8DD92D00705655 /* CustomerSystem-ios */,
 				EB62E1FA1A8DD92D00705655 /* Products */,
+				D35726071DE315640033D4E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -3192,6 +3208,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/imsdk",
+					"$(PROJECT_DIR)/CustomerSystem-ios/HXFramework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "${PROJECT_DIR}/CustomerSystem-ios/CustomerSystem.pch";
@@ -3233,6 +3250,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/imsdk",
+					"$(PROJECT_DIR)/CustomerSystem-ios/HXFramework",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "${PROJECT_DIR}/CustomerSystem-ios/CustomerSystem.pch";
